@@ -1,0 +1,45 @@
+/*FlexZoomer CSS*/
+.flexzoomer-background{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    background-color: #def;
+}
+
+.flexzoomer-backview{
+    position: absolute;
+    width: 0;
+    height: 0;
+    left: 0;
+    top: 0;
+    cursor: move;
+    border: 0;
+}
+
+.flexzoomer-viewport{
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    cursor: move;
+    border: 0;
+    /* disable select*/
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.flexzoomer-frontground{
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 0;
+    pointer-events: none;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 10px 0px inset;
+}
+
+
